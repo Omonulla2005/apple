@@ -1,0 +1,122 @@
+.react{
+    background-image: url(https://www.apple.com/v/home/aq/images/heroes/iphone-13/hero_iphone13_avail__gnqqkzuai6um_large.jpg);
+    background-position: center;
+}
+.ipman{
+    background-image: url('https://www.apple.com/v/home/aq/images/heroes/watch-series-7/hero_watch_lte__b8er858e34gi_large.jpg');
+    background-position: center bottom;
+}
+.container{
+    background-image: url('https://www.apple.com/v/home/aq/images/heroes/back-to-school-2022/hero_bts__bcuslanw39xe_large.jpg');
+    background-position: center;
+}
+.laylo{
+    background-image: url('https://media.wired.com/photos/629e53a083c980195cb99f32/master/w_1600,c_limit/Apple-WWDC-Macbook-Air-4-Up-Gear.jpg');
+    background-position: center;
+}
+.laylo >img{
+    margin-top: 50px;
+}
+.colleca{
+    background-image: url('https://www.apple.com/v/home/aq/images/promos/iphone-13-pro/promo_iphone13pro_avail__beadms4ldidu_large.jpg');
+}
+.footer{
+    background-image: url('https://www.apple.com/macbook-pro-13/');
+}
+.wear{
+    background-image: url('https://www.apple.com/v/home/aq/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg');
+    background-position: center;
+}
+.purple{
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://www.apple.com/v/home/aq/images/promos/apple-fitness-plus-katy-perry/promo_katy_perry__eqekd92guu4i_large.jpg');
+}
+
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
